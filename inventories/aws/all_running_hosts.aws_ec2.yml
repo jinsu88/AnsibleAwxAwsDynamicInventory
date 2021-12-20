@@ -8,7 +8,9 @@ filters:
   "instance-state-name": running
 strict_permissions: False
 hostnames:
-  - tag:Name
+  - name: 'instance-id'
+    separator: '_'
+    prefix: 'tag:Name'
 keyed_groups:
 - prefix: tag_Name_
   key: tags.Name
