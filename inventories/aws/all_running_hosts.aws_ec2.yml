@@ -12,9 +12,8 @@ hostnames:
     separator: '_'
     prefix: 'tag:Name'
 keyed_groups:
-- prefix: tag_Name_
-  key: tags.Name
-  separator: ""
+- prefix: tag
+  key: tags
 compose:
   ansible_host: public_ip_address
 # Can use IAM role in future to avoid IAM users and static passwords
