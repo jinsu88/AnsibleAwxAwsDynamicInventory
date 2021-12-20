@@ -10,7 +10,7 @@ strict_permissions: False
 hostnames:
   - name: 'instance-id'
     separator: '_'
-    prefix: 'tag-value'
+    prefix: 'tag:Name'
 keyed_groups:
 - prefix: tag
   key: tags
